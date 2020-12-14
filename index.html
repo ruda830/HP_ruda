@@ -3,20 +3,36 @@
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <meta charset="utf-8" />
+    <link rel="stylesheet" href="stylesheet.css" />
     <title>ruda's portfolio</title>
 </head>
+
+
+
 <body>
     <div class="accordion">
         <!--box1-->
-        <label for="box1">3dCG</label>
+        <label for="label1"> 3dCG1 </label>
         <!--boxのタイプ指定-->
-        <input type="checkbox" id=" box1" class="accbox" />
-        <div class="boxshow">
+        <input type="checkbox" id="label1" class="accbox" />
+
+        <!--隠す要素-->
+        <div class="accshow">
             <p>
                 羊
             </p>
         </div>
         <!--//box1-->
+        <!--box2-->
+        <label for="label2">3dCG2</label>
+        <input type="checkbox" id="label2" class="accbox" />
+        <div class="accshow">
+            <!--ここに隠す中身-->
+            <p>
+               イルカ
+            </p>
+        </div>
+        <!--//box2-->
     </div>
 </body>
 </html>

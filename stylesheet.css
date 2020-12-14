@@ -1,3 +1,50 @@
-﻿body
-{
+﻿/*ボックス全体*/
+.accordion {
+    margin: 2em 0; /*マージンは領域間のスペース[上下][左右]、パディングは領域内のスペース。*/
+    padding: 0;
+    max-width: 400px;
 }
+
+/*labelラベル*/
+.accordion label {
+    display:block;
+    margin: 1.0px 0;
+    padding: 10px;
+    color:aquamarine;
+    font-weight: bold;
+    background: #ff6a00;
+    cursor: pointer;
+    transition: all 1s;
+
+}
+
+/*inputラジオボタン非表示*/
+.accordion input {
+    display: none;
+}
+
+/*ラベルホバー時*/
+.accordion label:hover {
+    background: #85baef;
+}
+
+
+/*boxshow中身を非表示にしておく*/
+.accordion .accshow{
+    height: 0;
+    padding: 0;
+    overflow: hidden;
+    opacity: 0;
+    transition: 0.8s;
+}
+
+
+/*accboxクリックでboxshow中身表示*/
+
+.accbox:checked + .accshow {
+    height: auto;
+    padding: 5px;
+    background: #eaeaea;
+    opacity: 1;
+}
+
