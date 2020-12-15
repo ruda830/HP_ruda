@@ -1,8 +1,18 @@
-﻿/*ボックス全体*/
+﻿/*タイトル*/
+.title {
+    /*margin: 2em 0;*/ /*マージンは領域間のスペース[上下][左右]、パディングは領域内のスペース。*/
+    padding: 0;
+    max-width: 950px;
+    margin: 0 0 0 52px;
+}
+
+
+
+/*ボックス全体*/
 .accordion {
     /*margin: 2em 0;*/ /*マージンは領域間のスペース[上下][左右]、パディングは領域内のスペース。*/
     padding: 0;
-    max-width: 800px;
+    max-width: 950px;
     margin: 0 auto
 }
 
