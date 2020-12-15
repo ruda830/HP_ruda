@@ -12,7 +12,10 @@
 <body>
     <div class="accordion">
         <!--box1-->
-        <label for="label1"> 3dCG1 </label>
+        <!--labelタグで囲むメリット、ラジオボタンのラベル部分もクリック可能になる-->
+        <div id="center">
+            <label for="label1"> 3dCG1 </label>
+        </div>
         <!--boxのタイプ指定-->
         <input type="checkbox" id="label1" class="accbox" />
 
@@ -20,6 +23,7 @@
         <div class="accshow">
             <p>
                 羊
+                <img class="displayed" src="hitujij.jpg" width="300" height="300" />
             </p>
         </div>
         <!--//box1-->
@@ -29,7 +33,7 @@
         <div class="accshow">
             <!--ここに隠す中身-->
             <p>
-               イルカ
+                イルカ
             </p>
         </div>
         <!--//box2-->

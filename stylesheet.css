@@ -1,8 +1,9 @@
 ﻿/*ボックス全体*/
 .accordion {
-    margin: 2em 0; /*マージンは領域間のスペース[上下][左右]、パディングは領域内のスペース。*/
+    /*margin: 2em 0;*/ /*マージンは領域間のスペース[上下][左右]、パディングは領域内のスペース。*/
     padding: 0;
-    max-width: 400px;
+    max-width: 800px;
+    margin: 0 auto
 }
 
 /*labelラベル*/
@@ -48,3 +49,16 @@
     opacity: 1;
 }
 
+
+
+
+img.displayed {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#center > label {
+    text-align: center; /* これだけではダメで、  */
+    display: block; /* この設定が重要        */
+} 
