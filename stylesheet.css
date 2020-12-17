@@ -21,9 +21,9 @@
     display:block;
     margin: 1.0px 0;
     padding: 10px;
-    color:aquamarine;
+    color:#1e1e1e;
     font-weight: bold;
-    background: #ff6a00;
+    background: #eaeaea;
     cursor: pointer;
     transition: all 1s;
 
@@ -36,7 +36,7 @@
 
 /*ラベルホバー時*/
 .accordion label:hover {
-    background: #85baef;
+    background: #cbeaff;
 }
 
 
@@ -55,7 +55,7 @@
 .accbox:checked + .accshow {
     height: auto;
     padding: 5px;
-    background: #eaeaea;
+    background:#f0f0f0;
     opacity: 1;
 }
 
