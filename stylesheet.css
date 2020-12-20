@@ -6,10 +6,7 @@
     max-width: 950px;
     margin: 0 0 0 52px;
 }
-
 /*アコーディオンボックス-------------------------------------------------------------*/
-
-
 /*ボックス全体*/
 .accordion {
     /*margin: 2em 0;*/ /*マージンは領域間のスペース[上下][左右]、パディングは領域内のスペース。*/
@@ -17,52 +14,41 @@
     max-width: 950px;
     margin: 0 auto
 }
-
-/*labelラベル*/
-.accordion label {
-    display:block;
-    margin: 1.0px 0;
-    padding: 10px;
-    color:#1e1e1e;
-    font-weight: bold;
-    background: #eaeaea;
-    cursor: pointer;
-    transition: all 1.5s;
-
-}
-
-/*inputラジオボタン非表示*/
-.accordion input {
-    display: none;
-}
-
-/*ラベルホバー時*/
-.accordion label:hover {
-    background: #a4a4a4;
-}
-
-
-/*boxshow中身を非表示にしておく*/
-.accordion .accshow{
-    height: 0;
-    padding: 0;
-    overflow: hidden;
-    opacity: 0;
-    transition: 0.5s;
-}
-
-
+    /*labelラベル*/
+    .accordion label {
+        display: block;
+        margin: 1.0px 0;
+        padding: 10px;
+        color: #1e1e1e;
+        font-weight: bold;
+        background: #eaeaea;
+        cursor: pointer;
+        transition: all 1.5s;
+    }
+    /*inputラジオボタン非表示*/
+    .accordion input {
+        display: none;
+    }
+    /*ラベルホバー時*/
+    .accordion label:hover {
+        background: #a4a4a4;
+    }
+    /*boxshow中身を非表示にしておく*/
+    .accordion .accshow {
+        height: 0;
+        padding: 0;
+        overflow: hidden;
+        opacity: 0;
+        transition: 0.5s;
+    }
 /*accboxクリックでboxshow中身表示*/
-
 .accbox:checked + .accshow {
     height: auto;
     padding: 5px;
-    background:#f0f0f0;
+    background: #f0f0f0;
     opacity: 1;
 }
-
 /*ボックスの見た目-------------------------------------------------------------*/
-
 /*box内の画像を真ん中表示*/
 img.displayed {
     display: block;
@@ -74,11 +60,11 @@ img.displayed {
     text-align: center; /* これだけではダメで、  */
     display: block; /* この設定が重要        */
 }
-
-
+/*box内の画像を真ん中表示*/
+.Video {
+    text-align: center;
+}
 /*作品クレジット-------------------------------------------------------------*/
-
-
 .credit {
     display: table;
     width: 100%;
@@ -95,5 +81,4 @@ img.displayed {
     display: table-cell;
     text-align: right;
 }
-
- /*作品クレジット-------------------------------------------------------------*/
+/*作品クレジット-------------------------------------------------------------*/
