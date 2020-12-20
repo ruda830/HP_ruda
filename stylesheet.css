@@ -60,7 +60,7 @@ img.displayed {
     text-align: center; /* これだけではダメで、  */
     display: block; /* この設定が重要        */
 }
-/*box内の画像を真ん中表示*/
+/*box内の動画を真ん中表示*/
 .Video {
     text-align: center;
 }
