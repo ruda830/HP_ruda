@@ -49,6 +49,10 @@
     opacity: 1;
 }
 /*ボックスの見た目-------------------------------------------------------------*/
+/*box毎のカテゴリを真ん中表示*/
+.category {
+    text-align: center;
+}
 /*box内の画像を真ん中表示*/
 img.displayed {
     display: block;
